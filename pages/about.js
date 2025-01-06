@@ -10,8 +10,7 @@ import AboutSupport from "../components/About/AboutSupport"
 const About=()=>{
 return(
 <>
-<HeaderTwo/>
-<AboutHome/>
+
 <AboutCount/>
 <AboutMission/>
 <AboutCrew/>

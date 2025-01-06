@@ -1,5 +1,5 @@
 import HTHHomeSection from "../components/HomeThree/HTHomeSection"
-import HeaderThree from "../components/Layout/Headers/HeaderThree"
+
 import HTHCollection from "../components/HomeThree/HTHCollection"
 import HTHSellers from "../components/HomeThree/HTHSellers"
 import HTHExploer from "../components/HomeThree/HTHExploer"

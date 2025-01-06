@@ -18,73 +18,60 @@ useEffect(()=>{
 
 setTranding([
   {
-   avatar :"/images/nft/avater-smm-one.png",
-   username :"@GHARLIERA",
+  
    NftImage :"/images/nft/tranding-one.png",
-   NftIcon :"/images/nft/avater-sm-one.png",
+  
    name :"Armament",
    title :"Pretty Mundane",
    BidEnd : 100000000
   },
   {
-   avatar :"/images/nft/avater-smm-two.png",
-   username :"@GHARLIERA",
+  
    NftImage :"/images/nft/tranding-two.png",
-   NftIcon :"/images/nft/avater-sm-two.png",
+  
    name :"Armament",
    title :"Pretty Mundane",
    BidEnd : 100000000
   },
   {
-   avatar :"/images/nft/avater-smm-three.png",
-   username :"@GHARLIERA",
+  
    NftImage :"/images/nft/tranding-three.png",
-   NftIcon :"/images/nft/avater-sm-three.png",
    name :"Armament",
    title :"Pretty Mundane",
    BidEnd : 100000000
   },
   {
-   avatar :"/images/nft/avater-smm-four.png",
-   username :"@GHARLIERA",
+ 
    NftImage :"/images/nft/tranding-four.png",
-   NftIcon :"/images/nft/avater-sm-four.png",
    name :"Armament",
    title :"Pretty Mundane",
    BidEnd : 100000000
   },
   {
-   avatar :"/images/nft/avater-smm-one.png",
-   username :"@GHARLIERA",
+  
    NftImage :"/images/nft/tranding-one.png",
-   NftIcon :"/images/nft/avater-sm-one.png",
    name :"Armament",
    title :"Pretty Mundane",
    BidEnd : 100000000
   },
   {
-   avatar :"/images/nft/avater-smm-two.png",
-   username :"@GHARLIERA",
+
    NftImage :"/images/nft/tranding-two.png",
-   NftIcon :"/images/nft/avater-sm-two.png",
    name :"Armament",
    title :"Pretty Mundane",
    BidEnd : 100000000
   },
   {
-   avatar :"/images/nft/avater-smm-three.png",
-   username :"@GHARLIERA",
+ 
    NftImage :"/images/nft/tranding-three.png",
-   NftIcon :"/images/nft/avater-sm-three.png",
    name :"Armament",
    title :"Pretty Mundane",
    BidEnd : 100000000
   },
   {
-   avatar :"/images/nft/avater-smm-four.png",
-   username :"@GHARLIERA",
+  
    NftImage :"/images/nft/tranding-four.png",
-   NftIcon :"/images/nft/avater-sm-four.png",
+ 
    name :"Armament",
    title :"Pretty Mundane",
    BidEnd : 100000000
@@ -99,7 +86,7 @@ return(
 <div className="row pb-30">
     <div className="col-lg-12 d-flex align-items-center justify-content-between gap-18 flex-wrap flex-lg-nowrap ">
         <h2 className="section_title__1 fw-bold">
-            <span className="text-nowrap">Trending Auctions</span>
+            <span className="text-nowrap">Frilanserlarimiz tomonidan yaratilgan loyihalardan ilhom oling</span>
         </h2>
         <div className="section__line d-lg-block d-none"></div>
         <div className="section__actions d-flex gap-4">
@@ -127,7 +114,7 @@ return(
            
            <Link legacyBehavior  href="/">
             <a className="btn-rounded-v1 varient-2">
-                <span className="text-nowrap">View all</span>
+                <span className="text-nowrap">Barchasini ko'rish</span>
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.25 6H11.25" strokeWidth="1.2" strokeLinecap="round"
@@ -166,7 +153,7 @@ return(
        return(
         <SwiperSlide key={uuidv4()}>
           <TrandingSlide
-           avatar = {tranding.avatar}
+         
            username = {tranding.username}
            NftImage = {tranding.NftImage}
            NftIcon = {tranding.NftIcon}

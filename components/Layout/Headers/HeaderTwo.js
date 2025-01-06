@@ -96,163 +96,132 @@ return(
                         </Link>
                     </div>
                     <ul>
-                        <li className="has-child-menu">
-                            <a>Home</a>
-                            <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
-                            <ul className="sub-menu sub_menu_show"
-                            data-height="120px"
-                            >
-                                <li>
-                                    <Link legacyBehavior href="/">
-                                       <a>Home Style - 01</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/home-2">
-                                        <a>Home Style - 02</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/home-3">
-                                        <a>Home Style - 03</a>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
-                        <li className="has-child-menu">
-                            <a>Explore</a>
-                            <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
-                            <ul className="sub-menu sub_menu_show"
-                             data-height="150px"
-                            >
-                                <li>
-                                    <Link legacyBehavior href="/marketplace-1">
-                                    <a>Marketplace - 1</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/marketplace-2">
-                                    <a>Marketplace - 2</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/live-auction">
-                                    <a>Live Auction</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/collection">
-                                    <a>Collection</a>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
-                        <li className="has-child-menu">
-                            <a>Pages</a>
-                            <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
-                            <ul className="sub-menu sub_menu_show"
-                            data-height="330px"
-                            >
-                                <li>
-                                    <Link legacyBehavior href="/about">
-                                    <a>About</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/live-auction">
-                                    <a>Live Auction</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/collection">
-                                        <a>Collection</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/activity">
-                                        <a>Activity</a>
-                                    </Link>    
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/connect-wallet">
-                                    <a>Connect Wallet</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/nft-detail"> 
-                                    <a>NFT Details</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/author-profile">
-                                    <a>Author Profile</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/login">
-                                    <a>Login</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/register">
-                                    <a>Register</a>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
-                        <li className="has-child-menu">
-                            <a>Create</a>
-                            <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
-                            <ul className="sub-menu sub_menu_show"
-                             data-height="150px"
-                            >
-                                <li>
-                                   <Link legacyBehavior href="/create-nft">
-                                       <a>Create NFT</a>
-                                    </Link>   
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/create-multiple-nft">
-                                    <a>Create NFT (Maltiple)</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/create-single-nft">
-                                    <a>Create NFT (Single)</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/creators">
-                                    <a>Creators</a>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
-                        <li className="has-child-menu">
-                            <a>Blog</a>
-                            <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
-                            <ul className="sub-menu sub_menu_show"
-                             data-height="80px"
-                            >
-                                <li>
-                                <Link legacyBehavior href="/blog">
-                                <a>Blog Grid</a>
-                                </Link>
-                                </li>
-                                <li>
-                                    <Link legacyBehavior href="/blog-details">
-                                    <a>Blog Details</a>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <Link legacyBehavior href="/contact">
-                            <a>Contact</a>
-                            </Link>
-                        </li>
+    <li className="has-child-menu">
+        <a>Design </a>
+        <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
+        <ul className="sub-menu sub_menu_show" data-height="120px">
+  <li>
+    <Link href="/">Logotiplar</Link>
+  </li>
+  <li>
+    <Link href="/home-2">Brendlar</Link>
+  </li>
+  <li>
+    <Link href="/home">Vizitka</Link>
+  </li>
+  <li>
+    <Link href="/home-3">Taqdimotlar</Link>
+  </li>
+  <li>
+    <Link href="/ssss">Web va mobile</Link>
+  </li>
+  <li>
+    <Link href="/home-5">Grafig dizayn</Link>
+  </li>
+</ul>
 
-                    </ul>
+    </li>
+    <li className="has-child-menu">
+        <a>IT sohasi</a>
+        <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
+        <ul className="sub-menu sub_menu_show" data-height="150px">
+            <li>
+                <Link legacyBehavior href="/marketplace-1">
+                    <a>web sayt xizmatlari</a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/marketplace-2">
+                    <a>
+                        tayor templatelar
+                    </a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/live-auction">
+                    <a>Mobile ilovalar</a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/collection">
+                    <a>SRM va ERP </a>
+                </Link>
+            </li>
+        </ul>
+    </li>
+    <li className="has-child-menu">
+        <a>yozish va tarjimalar</a>
+        <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
+        <ul className="sub-menu sub_menu_show" data-height="330px">
+            <li>
+                <Link legacyBehavior href="/about">
+                    <a>Maqolalar</a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/live-auction">
+                    <a>Biznes va marketing</a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/collection">
+                    <a>Biznes nomlari shiorla</a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/activity">
+                    <a>Faoliyat</a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/connect-wallet">
+                    <a>Hamyonni ulash</a>
+                </Link>
+            </li>
+            
+            <li>
+                <Link legacyBehavior href="/author-profile">
+                    <a>Biznes rejalar</a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/login">
+                    <a>Kirish</a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/register">
+                    <a>Ro'yxatdan o'tish</a>
+                </Link>
+            </li>
+        </ul>
+    </li>
+    <li className="has-child-menu">
+        <a>Seo va veb trafic</a>
+        <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
+        <ul className="sub-menu sub_menu_show" data-height="150px">
+            <li>
+                <Link legacyBehavior href="/create-nft">
+                    <a>vide va audiolar </a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/create-multiple-nft">
+                    <a>Web saytni yuqoriga ko'tarish</a>
+                </Link>
+            </li>
+            <li>
+                <Link legacyBehavior href="/create-multiple-nft">
+                    <a>Ba'diy kitoblar</a>
+                </Link>
+            </li>
+           
+        </ul>
+    </li>
+    
+   
+</ul>
+
 
                     <div className="d-xl-none d-inline-flex flex-column gap-3 px-3 mt-4">
                         <Link legacyBehavior  href="/connect-wallet">
