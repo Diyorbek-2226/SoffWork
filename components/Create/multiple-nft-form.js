@@ -2,15 +2,15 @@ import Link from "next/link"
 import ActivityFilterItem from "../Activity/ActivityFilter/ActivityFilterItem"
 import Dropdownns from "../Dropdowns"
 import SectionsSidebar from "../SectionsSidebar"
-
+import HTSellers from '../../components/HomeTwo/HTSellers'
 
 const MultipleNftform=(props)=>{
 return(
 <>
-<div className="item_create__wrapper bg-body-2 section_gap_y_top__3 section_gap_y_bottom__1">
+<div className="item_create__wrapper bg-body-2 section_gap_y_top__3 ">
 <div className="container ">
 <div className="row d-flex justify-content-between ">
-    <div className="col-lg-5 col-md-7 col-sm-10 ">
+ <div className="col-lg-5 col-md-7 col-sm-10 ">
 <div className="create__preview">
    <div className="ps-5 pe-5">
    <h5>Veb-saytingizni reklama qilish va Google Rank uchun 5000 ta ijtimoiy signallarni aralashtiramiz</h5>
@@ -18,10 +18,7 @@ return(
     
     <div className="preview_card__style ">
         <div className="preview__cover ">
-           
-                <img className="w-100" src="/images/others/preview-thumb2.png" alt=""/>
-           
-            
+                <img className="w-100" src="/images/others/preview-thumb2.png" alt=""/>  
         </div>
         <div className="preview__disc ps-4 pe-5">
             <span className="seller">Desmond Eagle</span>
@@ -55,10 +52,12 @@ return(
             <ins className="preview__countdown">Ends in <span>11:21:36</span></ins>
         </div>
     </div>
+   
+</div>
+
 </div>
 
 
-</div>
 <div className="col-lg-7 col-md-10 gx-lg-5 ">
         <div className="tab-content" id="act_tab_content">
         <Dropdownns/>
@@ -73,15 +72,13 @@ return(
                   time="3 hours ago"
                 />
                 <SectionsSidebar/>
-                 <div className="mw-100">
-   
-    </div>
+         
              
             </div>
         </div>
         
     </div></div>
-    
+    <HTSellers/>
 </div>
 </div>
 </>

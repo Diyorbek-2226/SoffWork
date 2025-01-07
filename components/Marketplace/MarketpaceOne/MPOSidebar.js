@@ -43,8 +43,6 @@ const CategorySidebar = () => {
                     </span>
                     <ins className="col__name">Ijtimoiy tarmoq profillari</ins>
                   </span>
-                  <input type="checkbox"/>
-                  <span className="check__circle"></span>
                 </label>
               </li>
               <li className="single__col">
@@ -55,8 +53,7 @@ const CategorySidebar = () => {
                     </span>
                     <ins className="col__name">Collectibles</ins>
                   </span>
-                  <input type="checkbox"/>
-                  <span className="check__circle"></span>
+                  
                 </label>
               </li>
               <li className="single__col">
@@ -67,8 +64,7 @@ const CategorySidebar = () => {
                     </span>
                     <ins className="col__name">Sports</ins>
                   </span>
-                  <input type="checkbox"/>
-                  <span className="check__circle"></span>
+                  
                 </label>
               </li>
             </ul>
