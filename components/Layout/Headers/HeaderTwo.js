@@ -71,14 +71,22 @@ return(
                     </Link>
                 </div>
                 <div className="nav-search-style-two w-100 d-xl-block d-none">
-                    <span className="search__icon">
+                   <div>
+                   <span className="search__icon">
                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.26847 16.0378C12.2827 16.0378 15.5369 12.7834 15.5369 8.7689C15.5369 4.7544 12.2827 1.5 8.26847 1.5C4.2542 1.5 1 4.7544 1 8.7689C1 12.7834 4.2542 16.0378 8.26847 16.0378Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                             <path d="M17.0002 17.5L13.4023 13.9025" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
                     </span>
-                    <input type="text" 
-                    placeholder={'Bizning xizmatlar '}/>
+                    <input type="text" placeholder="Email manzilingiz" />
+                   </div>
+                <div>
+                    
+                 
+                </div>
+                 
+          
+
                 </div>
             </div>
             <div className="col-xl-8 col-10 col-lg-9 d-flex justify-content-end">
@@ -104,19 +112,19 @@ return(
     <Link href="/">Logotiplar</Link>
   </li>
   <li>
-    <Link href="/home-2">Brendlar</Link>
+    <Link href="/category/offpageseo">Brendlar</Link>
   </li>
   <li>
-    <Link href="/home">Vizitka</Link>
+    <Link href="/category/offpageseo">Vizitka</Link>
   </li>
   <li>
-    <Link href="/home-3">Taqdimotlar</Link>
+    <Link href="/category/offpageseo">Taqdimotlar</Link>
   </li>
   <li>
-    <Link href="/ssss">Web va mobile</Link>
+    <Link href="/category/offpageseo">Web va mobile</Link>
   </li>
   <li>
-    <Link href="/home-5">Grafig dizayn</Link>
+    <Link href="/category/offpageseo">Grafig dizayn</Link>
   </li>
 </ul>
 
@@ -126,24 +134,24 @@ return(
         <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
         <ul className="sub-menu sub_menu_show" data-height="150px">
             <li>
-                <Link legacyBehavior href="/marketplace-1">
+                <Link legacyBehavior href="/category/offpageseo">
                     <a>web sayt xizmatlari</a>
                 </Link>
             </li>
             <li>
-                <Link legacyBehavior href="/marketplace-2">
+                <Link legacyBehavior href="/category/offpageseo">
                     <a>
                         tayor templatelar
                     </a>
                 </Link>
             </li>
             <li>
-                <Link legacyBehavior href="/live-auction">
+                <Link legacyBehavior href="/category/offpageseo">
                     <a>Mobile ilovalar</a>
                 </Link>
             </li>
             <li>
-                <Link legacyBehavior href="/collection">
+                <Link legacyBehavior href="/category/offpageseo">
                     <a>SRM va ERP </a>
                 </Link>
             </li>
@@ -154,33 +162,33 @@ return(
         <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
         <ul className="sub-menu sub_menu_show" data-height="330px">
             <li>
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/create-multiple-nft">
                     <a>Maqolalar</a>
                 </Link>
             </li>
             <li>
-                <Link legacyBehavior href="/live-auction">
+                <Link legacyBehavior href="/category/offpageseo">
                     <a>Biznes va marketing</a>
                 </Link>
             </li>
             <li>
-                <Link legacyBehavior href="/collection">
+                <Link legacyBehavior href="/category/offpageseo">
                     <a>Biznes nomlari shiorla</a>
                 </Link>
             </li>
             <li>
-                <Link legacyBehavior href="/activity">
+                <Link legacyBehavior href="/category/offpageseo">
                     <a>Faoliyat</a>
                 </Link>
             </li>
             <li>
-                <Link legacyBehavior href="/connect-wallet">
+                <Link legacyBehavior href="/category/offpageseo">
                     <a>Hamyonni ulash</a>
                 </Link>
             </li>
             
             <li>
-                <Link legacyBehavior href="/author-profile">
+                <Link legacyBehavior href="/category/offpageseo">
                     <a>Biznes rejalar</a>
                 </Link>
             </li>
@@ -190,7 +198,7 @@ return(
                 </Link>
             </li>
             <li>
-                <Link legacyBehavior href="/register">
+                <Link legacyBehavior href="/category/offpageseo">
                     <a>Ro'yxatdan o'tish</a>
                 </Link>
             </li>
@@ -201,8 +209,8 @@ return(
         <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
         <ul className="sub-menu sub_menu_show" data-height="150px">
             <li>
-                <Link legacyBehavior href="/create-nft">
-                    <a>vide va audiolar </a>
+                <Link legacyBehavior href="/create-multiple-nft">
+                    <a>video va audiolar </a>
                 </Link>
             </li>
             <li>
@@ -211,7 +219,7 @@ return(
                 </Link>
             </li>
             <li>
-                <Link legacyBehavior href="/create-multiple-nft">
+                <Link legacyBehavior href="/category/offpageseo2">
                     <a>Ba'diy kitoblar</a>
                 </Link>
             </li>
@@ -224,7 +232,7 @@ return(
 
 
                     <div className="d-xl-none d-inline-flex flex-column gap-3 px-3 mt-4">
-                        <Link legacyBehavior  href="/connect-wallet">
+                        <Link legacyBehavior  href="/create-multiple-nft">
                         <a className="btn-pill-v1"><span>Hamyonlar </span></a>
                         </Link>
                     </div>
@@ -232,11 +240,7 @@ return(
 
                 <div className="nav-actions d-flex align-items-center">
                     
-                    <div className="d-none d-md-block mr-2">
-                        <Link legacyBehavior  href="/connect-wallet">
-                        <a className="btn-pill-v1"><span> hamyoni ulash </span></a>
-                        </Link>
-                    </div>
+                    
                     <button 
                     onClick={e=>MobileSearch?setMobilesearch(false):setMobilesearch(true)}
                     type="button" className="nav_search__icon mr-2 d-block d-xl-none mr-2 style__two" id="navSearch">

@@ -17,11 +17,13 @@ useEffect(()=>{
 setSliders([
   {
     image: "https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=500&name=learn-programming-career-jpg.jpeg",
-    title: "Dizaynlar bo'ticha"
+    title: "Dizaynlar boyiicha",
+    href:'category/offpageseo'
   },
   {
     image: "https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=500&name=learn-programming-career-jpg.jpeg",
-    title: "Marketing sohasi bo'yicha"
+    title: "Marketing sohasi bo'yicha",
+     href:'category/offpageseo'
   },
   {
     image: "https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=500&name=learn-programming-career-jpg.jpeg",
@@ -29,19 +31,23 @@ setSliders([
   },
   {
     image: "https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=500&name=learn-programming-career-jpg.jpeg",
-    title: "Audio va videolar"
+    title: "Audio va videolar",
+     href:'category/offpageseo'
   },
   {
     image: "https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=500&name=learn-programming-career-jpg.jpeg",
-    title: "Webdasturlash bo'yicha"
+    title: "Webdasturlash bo'yicha",
+     href:'category/offpageseo'
   },
   {
     image: "https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=500&name=learn-programming-career-jpg.jpeg",
-    title: "Audio va video"
+    title: "Audio va video",
+     href:'category/offpageseo'
   },
   {
     image: "https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=500&name=learn-programming-career-jpg.jpeg",
-    title: "Audio va video"
+    title: "Audio va video",
+     href:'category/offpageseo'
   },
 ])  
 
@@ -63,13 +69,7 @@ return(
                     <i className="bi bi-chevron-right"></i>
                 </div>
             </div>
-            <Link legacyBehavior  href="/">
-            <a className="btn-rounded-v3">View all <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.25 6H11.25" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M6.25 1L11.25 6L6.25 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-            </a>
-            </Link>
+            
         </div>
     </div>
     <div className="collection_slider__two pt-40">
@@ -98,6 +98,7 @@ return(
           <HTHCollectionItem
             image={item.image}
             title={item.title}
+            to={item.href}
           />
         </SwiperSlide>
        )

@@ -1,7 +1,9 @@
 import Link from "next/link"
 import '../home.module.css'
+import { useRouter } from "next/router"
 
 const HTHHomeSection=(props)=>{
+    const routes=useRouter()
 return(
 <div className="hero_style__three section_gap_y_bottom__1 position-relative">
 
@@ -21,25 +23,25 @@ return(
                
                <div className="col-lg-12   ">
                <ul className="filter-list d-flex flex-wrap gap-2 mt-5 mb-5">
-                   <li className="single-filter mt-0">
+                   <li onClick={()=>router.push('/seo')}  className="single-filter mt-0">
                        <button 
                        
                        className="has__dropdown">  <span>Web dizayn </span>
                        </button>
                
                    </li>
-                   <li className="single-filter mt-0">
+                   <li onClick={()=>router.push('/seo')}  className="single-filter mt-0">
                        <button className="has__dropdown">
                        
                        <span>Logotip dizayn</span></button>
                
                           
                    </li>
-                   <li className="single-filter mt-0">
+                   <li onClick={()=>router.push('/seo')}  className="single-filter mt-0">
                        <button className="has__dropdown">  <span>Websayt va shablonlar</span></button>
                           
                    </li>
-                   <li className="single-filter mt-0">
+                   <li onClick={()=>router.push('/seo')}  className="single-filter mt-0">
                        <button className="has__dropdown"
                       > <span>Wordpres</span></button>
                

@@ -9,7 +9,8 @@ return(
           <div className="activity__avater">
             <img src={'https://picsum.photos/200'} alt="" />
           </div>
-          <div><div className="activity_card__disc">
+          <div>
+            <div className="activity_card__disc">
           <h5 className="nft__title mt-2 mb-2">
               <Link legacyBehavior href="/">
                 <a style={{fontSize:'13px'}}>AGC_user</a>
@@ -25,9 +26,9 @@ return(
           <div className="activity_card__disc mt-3 mb-3">
             <button className="nft__title btn border rounded-pill d-flex align-items-center px-3 py-2">
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" viewBox="0 0 16 16" className="me-2">
-    <path fill-rule="evenodd" d="M1.5 8a.5.5 0 0 1 .5-.5h9.793l-3.147-3.146a.5.5 0 1 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 1 1-.708-.708L11.793 8.5H2a.5.5 0 0 1-.5-.5z"/>
+    <path d="M1.5 8a.5.5 0 0 1 .5-.5h9.793l-3.147-3.146a.5.5 0 1 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 1 1-.708-.708L11.793 8.5H2a.5.5 0 0 1-.5-.5z"/>
   </svg>
-Biz bilan bog'lanish
+{`Biz bilan bog'lanish`}
 </button>
 
             </div>

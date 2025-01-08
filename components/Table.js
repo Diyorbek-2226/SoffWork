@@ -1,3 +1,6 @@
+import Comment from "./Coment";
+import Number from "./Number";
+
 export default function DomainTable() {
     const domains = [
       { id: 1, name: "Domain 1", mozAuthority: 99, spamScore: 1, majesticCF: 97, traffic: "less than 30", language: "eng" },
@@ -55,6 +58,14 @@ export default function DomainTable() {
             ))}
           </tbody>
         </table>
+        <div className="row gap-4">
+<div className="col-5">
+  <Comment/>
+</div>
+<div className="col-5">
+<Number/>
+</div>
+       </div>
        </div>
       </div>
     );

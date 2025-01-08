@@ -9,6 +9,7 @@ return(
 <HeaderTwo/>
 <BlogBreadcrumb/>
 <AllBlogs/>
+
 <FooterOne white={true} />
 </>
 )

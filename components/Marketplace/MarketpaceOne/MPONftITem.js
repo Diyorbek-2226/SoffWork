@@ -6,12 +6,12 @@ return(
     <div className="auction_card_style__two">
         <div className="auction_card__thumb">
 
-            <Link legacyBehavior  href="/nft-detail"><a><img src={props.image} alt=""/></a></Link>
+            <Link legacyBehavior  href="/category/category-section"><a><img src={props.image} alt=""/></a></Link>
             
            
         </div>
         <div className="nft__disc">
-            <Link legacyBehavior  href="/author-profile">
+            <Link legacyBehavior  href="/category/category-section">
             <a className="nft__creator">
                 {props.username} 
             <img src="/images/icons/tick-blue.svg" alt=""/>
@@ -19,7 +19,7 @@ return(
             </Link>
 
             <div className="nft__title">
-                <h5><Link legacyBehavior  href="/nft-detail"><a>{props.title}</a></Link></h5>
+                <h5><Link legacyBehavior  href="/category/category-section"><a>{props.title}</a></Link></h5>
                 <ins className="current-price">
                     <img src="/images/icons/tri-flash-blue.svg" alt=""/> <span>{props.ETH} ETH</span></ins>
             </div>

@@ -86,7 +86,7 @@ return(
 <div className="row pb-30">
     <div className="col-lg-12 d-flex align-items-center justify-content-between gap-18 flex-wrap flex-lg-nowrap ">
         <h2 className="section_title__1 fw-bold">
-            <span className="text-nowrap">Frilanserlarimiz tomonidan yaratilgan loyihalardan ilhom oling</span>
+            <span className="text-nowrap">Frilans Loyihalar</span>
         </h2>
         <div className="section__line d-lg-block d-none"></div>
         <div className="section__actions d-flex gap-4">
@@ -112,18 +112,7 @@ return(
                 </div>
             </div>
            
-           <Link legacyBehavior  href="/">
-            <a className="btn-rounded-v1 varient-2">
-                <span className="text-nowrap">Barchasini ko'rish</span>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.25 6H11.25" strokeWidth="1.2" strokeLinecap="round"
-                        strokeLinejoin="round" />
-                    <path d="M6.25 1L11.25 6L6.25 11" strokeWidth="1.2" strokeLinecap="round"
-                        strokeLinejoin="round" />
-                </svg>
-            </a>
-           </Link>
+         
         </div>
     </div>
 </div>

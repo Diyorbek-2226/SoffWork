@@ -4,6 +4,7 @@ import Dropdownns from "../Dropdowns"
 import SectionsSidebar from "../SectionsSidebar"
 import HTSellers from '../../components/HomeTwo/HTSellers'
 
+
 const MultipleNftform=(props)=>{
 return(
 <>
@@ -72,7 +73,7 @@ return(
                   time="3 hours ago"
                 />
                 <SectionsSidebar/>
-         
+       
              
             </div>
         </div>

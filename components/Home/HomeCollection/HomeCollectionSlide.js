@@ -42,8 +42,8 @@ return(
     </div>
 </div>
 <div className="collection__disc">
-    <h5><a>Modern Art Collection</a></h5>
-    <span>235 in Collection</span>
+    <h5><a>Veb sayt va domen istalganicha </a></h5>
+    <span>40$ xizmat narxi</span>
 </div>
 </div>
 )

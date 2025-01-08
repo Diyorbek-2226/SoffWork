@@ -18,46 +18,36 @@ useEffect(()=>{
 setCollections([
     {
         coverImg:"/images/nft/coll-xl-one.png",
-        thumbOne:"/images/nft/coll-sm-two.png",
-        avatar:"/images/nft/coll-avater-one.png",
-        thumbTwo:"/images/nft/coll-sm-two.png"
+        
     },
     {
         coverImg:"/images/nft/coll-xl-two.png",
-        thumbOne:"/images/nft/coll-sm-three.png",
-        avatar:"/images/nft/coll-avater-two.png",
-        thumbTwo:"/images/nft/coll-sm-three.png"
+      
     },
     {
         coverImg:"/images/nft/coll-xl-three.png",
-        thumbOne:"/images/nft/coll-sm-four.png",
-        avatar:"/images/nft/coll-avater-three.png",
-        thumbTwo:"/images/nft/coll-sm-four.png"
+       
     },
     {
         coverImg:"/images/nft/coll-xl-one.png",
-        thumbOne:"/images/nft/coll-sm-two.png",
-        avatar:"/images/nft/coll-avater-one.png",
-        thumbTwo:"/images/nft/coll-sm-one.png"
+       
     },
     {
         coverImg:"/images/nft/coll-xl-two.png",
-        thumbOne:"/images/nft/coll-sm-two.png",
-        avatar:"/images/nft/coll-avater-two.png",
-        thumbTwo:"/images/nft/coll-sm-one.png"
+       
     }
 ])
 
 },[])
 
 return(
-<div className="collection_style__one bg-body position-relative section_gap_y_top__2 z-1">
-<div className="container">
+<div className="collection_style__one bg-body position-relative section_gap_y_top__2 z-1 pt-4 pb-4">
+<div className="container ">
 <div className="row pb-30">
     <div
         className="col-lg-12 d-flex align-items-center justify-content-between gap-18 flex-wrap flex-lg-nowrap ">
         <h2 className="section_title__1 fw-bold">
-            <span className="text-nowrap"> Hot Collections</span>
+            <span className="text-nowrap"> Ushbu sotuvchining boshqa ishlari</span>
         </h2>
         <div className="section__line d-lg-block d-none"></div>
         <div className="section__actions d-flex gap-4">
@@ -83,16 +73,7 @@ return(
                 </div>
             </div>
 
-            <div className="btn-rounded-v1 varient-2">
-                <span className="text-nowrap">View all</span>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.25 6H11.25" strokeWidth="1.2" strokeLinecap="round"
-                        strokeLinejoin="round" />
-                    <path d="M6.25 1L11.25 6L6.25 11" strokeWidth="1.2" strokeLinecap="round"
-                        strokeLinejoin="round" />
-                </svg>
-            </div>
+           
         </div>
     </div>
 </div>
