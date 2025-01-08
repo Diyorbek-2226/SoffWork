@@ -11,7 +11,6 @@ import FooterTwo from "../components/Layout/Footers/FooterTwo"
 const HomeThree=()=>{
 return(
 <>
-<HeaderThree/>
 <HTHHomeSection/>
 {/* <HTHCollection/> */}
 <HTHSellers/>
