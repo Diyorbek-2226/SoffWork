@@ -1,7 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/category/offpageseo": "pages/category/offpageseo.js",
-  "/": "pages/index.js"
-}
+{"/about":"pages/about.html","/activity":"pages/activity.html","/_error":"pages/_error.js","/_app":"pages/_app.js","/blog-details":"pages/blog-details.html","/category":"pages/category.html","/author-profile":"pages/author-profile.html","/category/offpageseo":"pages/category/offpageseo.html","/blog":"pages/blog.html","/connect-wallet":"pages/connect-wallet.html","/collection":"pages/collection.html","/category/category-section":"pages/category/category-section.html","/create-nft":"pages/create-nft.html","/contact":"pages/contact.html","/home-3":"pages/home-3.html","/login":"pages/login.html","/":"pages/index.html","/create-single-nft":"pages/create-single-nft.html","/nft-detail":"pages/nft-detail.html","/register":"pages/register.html","/creators":"pages/creators.html","/marketplace-2":"pages/marketplace-2.html","/programing":"pages/programing.html","/_document":"pages/_document.js","/404":"pages/404.html"}
