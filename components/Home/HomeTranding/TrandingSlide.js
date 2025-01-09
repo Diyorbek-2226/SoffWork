@@ -7,7 +7,7 @@ return(
     <div className="auction_card_style__one">
         
         <div className="auction_card__thumb">
-            <Link legacyBehavior  href="/nft-detail">
+            <Link legacyBehavior  href="writing-translations">
             <a>
                 <img src={props.NftImage} alt=""/>
             </a>

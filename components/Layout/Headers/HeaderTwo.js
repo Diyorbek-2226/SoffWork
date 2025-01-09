@@ -1,4 +1,4 @@
-import { useContext , useState , useRef } from "react"
+    import { useContext , useState , useRef } from "react"
 import ThemeContext from "../../../context/Theme/ThemeContext"
 import Link from "next/link"
 import HeaderConstant from "../../../constant/Header/HeaderConstant"
@@ -162,7 +162,7 @@ return(
         <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
         <ul className="sub-menu sub_menu_show" data-height="330px">
             <li>
-                <Link legacyBehavior href="/create-multiple-nft">
+                <Link legacyBehavior href="/category/category-section">
                     <a>Maqolalar</a>
                 </Link>
             </li>
@@ -209,12 +209,12 @@ return(
         <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
         <ul className="sub-menu sub_menu_show" data-height="150px">
             <li>
-                <Link legacyBehavior href="/create-multiple-nft">
+                <Link legacyBehavior href="/category/category-section">
                     <a>video va audiolar </a>
                 </Link>
             </li>
             <li>
-                <Link legacyBehavior href="/create-multiple-nft">
+                <Link legacyBehavior href="/category/category-section">
                     <a>Web saytni yuqoriga ko'tarish</a>
                 </Link>
             </li>
@@ -232,7 +232,7 @@ return(
 
 
                     <div className="d-xl-none d-inline-flex flex-column gap-3 px-3 mt-4">
-                        <Link legacyBehavior  href="/create-multiple-nft">
+                        <Link legacyBehavior  href="category/category-section">
                         <a className="btn-pill-v1"><span>Hamyonlar </span></a>
                         </Link>
                     </div>

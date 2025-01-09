@@ -1,5 +1,5 @@
 
-import LoginForm from "../components/Login/LoginForm"
+import LoginForm from "../components/Login/register"
 import FooterOne from "../components/Layout/Footers/FooterOne"
 
 const LoginPage=()=>{

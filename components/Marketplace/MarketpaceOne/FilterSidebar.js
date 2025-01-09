@@ -2,24 +2,32 @@ import React from "react";
 
 export default function FilterSidebar() {
   return (
-    <div className="sidebar  ">
-      <h3 className="sidebar-title">Kategoriyalar</h3>
-      <ul className="category-list">
-        <li>
-          <span>SEO va web-trafik</span>
-          <ul>
-            <li>Orqaga havolalar</li>
-            <ul>
-              <li>Maqolalar</li>
+    <div className="sidebarb mt-3 ">
+     <div className="text-center">
+     <h3 className="sidebar-title">Kategoriyalar</h3>
+     
+
+     <span className="text-center">SEO va web-trafik</span>
+     
+     </div>
+           
+            <ul className="text-center">
+              <li>Maqolalar va boshqalar </li>
+              <hr className="mn-n"/>
               <li>Forumlar</li>
+              <hr className="mn-n"/>
               <li>Kataloglar</li>
+              <hr className="mn-n"/>
               <li>Profillar</li>
+              <hr className="mn-n"/>
               <li>Fikrlar</li>
+              <hr className="mn-n"/>
               <li>Ijtimoiy tarmoq profillari</li>
+              <hr className="mn-n"/>
             </ul>
-          </ul>
-        </li>
-      </ul>
+          
+   
+
       <div className="filter-section">
         <div className="filter-item">
           <label>Moz domen ma'muriyati <span title="Ma'lumot">?</span></label>
@@ -76,14 +84,7 @@ export default function FilterSidebar() {
             <input type="text" placeholder="$ maks." />
           </div>
         </div>
-        <div className="filter-item">
-          <label>Sotuvchi darajasi</label>
-          <ul>
-            <li>Rising Talent yoki undan yuqori</li>
-            <li>Eng yuqori baholangan yoki undan yuqori</li>
-            <li>Yuoqri reytingli Plus</li>
-          </ul>
-        </div>
+        
         <div className="filter-item">
           <label>Sotuvchi faoliyati</label>
           <ul>

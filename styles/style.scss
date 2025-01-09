@@ -5354,6 +5354,7 @@ stats grid style end
     .single__col{
       &:not(:first-child){
         margin-top: 6px;
+        color: var(--text-1);
 
        
       }
